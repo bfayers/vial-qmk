@@ -38,8 +38,6 @@ enum {
     KC_TASK,
     KC_FILE,
     KC_SNAP,
-    KC_CTANA,
-    KC_SIRI,
 #ifdef KC_BLUETOOTH_ENABLE
     BT_HST1,
     BT_HST2,
@@ -51,5 +49,7 @@ enum {
     BT_HST3 = KC_TRNS,
     BAT_LVL = KC_TRNS,
 #endif
+    KC_CTANA,
+    KC_SIRI,
 	NEW_SAFE_RANGE
 };
